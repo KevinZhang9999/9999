@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://yhsx.yindengfintech.com/register/download.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>银狐闪信</title>
+<link href="./download_files/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="./download_files/bootstrap-theme.css" type="text/css" rel="stylesheet">
+<link href="./download_files/bootstrap-responsive.css" type="text/css" rel="stylesheet">
+<script src="./download_files/hm.js"></script>
+<script src="./download_files/jquery-1.11.1.min.js" type="text/javascript"></script>
+<!--<script src="https://yhsx.yindengfintech.com/static/js/TouchSlide.1.1.js" type="text/javascript"></script>-->
+<script src="./download_files/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?4ab8d1c2d53e3a75294bfbe5b1531319";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background: #F6FBFF;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+
+    header {
+
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* header img:nth-child(1) {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        top: 30px;
+        width:auto;
+        height:50px;
+    } */
+
+    header img {
+        width: 100%;
+    }
+
+    a {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
+        color: #fff;
+        display: inherit;
+    }
+
+    a.but {
+        width: 160px;
+        height: 50px;
+        border-radius: 25px;
+        background: #FFB857;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 50px;
+        font-size: 1.7rem;
+        margin-top: 20px;
+    }
+
+
+    .titles {
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        color: #1b1b1b;
+        line-height: 50px;
+        position: relative;
+        font-weight: bold;
+    }
+
+    .titles li {
+        width: 130px;
+        height: 15px;
+        border-radius: 15px;
+        background: #5391FE;
+        position: absolute;
+        bottom: 8px;
+        z-index: -1;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        list-style: none;
+    }
+
+    #guide {
+        width: 100%;
+        padding-top: 30px;
+        display: none;
+    }
+
+    #guide img {
+        width: 100%;
+    }
+
+    #guide a img {
+        width: 244px;
+        height: 92px;
+    }
+
+    a img.zk {
+        width: 31px;
+        height: 10px;
+
+    }
+
+    a.guideTitle {
+        width: 100%;
+        text-decoration: underline;
+        color: #333333;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    a.guideTitle b {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #333;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 100%;
+        display: inline-block;
+
+    }
+    .logo {
+		position: absolute;
+		left: 5%;
+		top: 15px;
+		width: 220px;
+		height: 18px;
+	}
+	.elasticLayer {
+        width: 100%;
+        height: 100%;
+        background: rgba(30, 30, 30, 0.8);
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        display: none
+    }
+
+    .elasticLayer img {
+        width: 302px;
+        height: 202px;
+        margin-right: -16%;
+        margin-top: 40px;
+    }
+</style>
+<script>
+    $(function () {
+        $('.guideTitle').click(function () {
+            //百度统计-查看授信设置说明人数
+            _hmt.push(['_trackEvent', 'givingCredit', 'click', ''])
+            if ($('#guide').is(":hidden")) {
+                $('#guide').show();
+            } else {
+                $('#guide').hide();
+            }
+
+        });
+
+        var u = navigator.userAgent;
+        var browser = {
+            trident: u.indexOf('Trident') > -1, //IE内核
+            presto: u.indexOf('Presto') > -1, //opera内核
+            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //是否为移动终端
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf('iPad') > -1, //是否iPad
+            weChat: u.match(/MicroMessenger/i) == "micromessenger",
+            webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+        };
+
+        var androidUrl = "https://yhsx.yindengfintech.com/attachment/app/android/7/app-1.0.6-release.apk";
+        var iosUrl = "itms-services://?action=download-manifest&url=https://www.yindengfintech.com/ios/manifest.plist";
+
+        if (browser.weChat) {
+            $(".elasticLayer").show();
+        } else {
+            $(".elasticLayer").hide();
+
+            if (browser.android) {
+                window.location = androidUrl;
+                //百度统计-安卓手机下载人数
+                _hmt.push(['_trackEvent', 'download', 'click', 'android'])
+            } else {
+                window.location = iosUrl;
+                //百度统计-苹果手机下载人数
+                _hmt.push(['_trackEvent', 'download', 'click', 'ios'])
+            }
+        }
+    })
+</script>
+<div>
+    <img class="logo" src="./download_files/logo.png">
+    <header>
+        <!-- <img src="https://yhsx.yindengfintech.com/attachment/download/15404508234880.png" /> -->
+        <img src="./download_files/bg.png">
+    </header>
+    <a class="guideTitle" href="https://yhsx.yindengfintech.com/register/download.html#guide">
+        <b>!</b>苹果手机需设置“未受信任的企业级开发者”</a>
+    <div style="display: flex;flex-direction: column; text-align: center;">
+        <a class="but" href="itms-services://?action=download-manifest&amp;url=https://www.yindengfintech.com/ios/manifest.plist" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;download&#39;, &#39;click&#39;, &#39;ios&#39;])">
+            <img style="width:20px;height:25px;margin: 11px 5px 11px 15px;" src="./download_files/ios.png"> 苹果手机下载
+        </a>
+        <a class="but" href="https://yhsx.yindengfintech.com/attachment/app/android/7/app-1.0.6-release.apk" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;download&#39;, &#39;click&#39;, &#39;android&#39;])">
+            <img style="width:23px;height:28px;margin: 11px 5px 11px 15px;" src="./download_files/android.png"> 安卓手机下载
+        </a>
+    </div>
+
+    <!--<a class="guideTitle" href="#guide">
+        <div class="titles">IOS用户安装向导
+            <li></li>
+        </div>
+        <img class="zk" src="https://yhsx.yindengfintech.com/static/img/channel_download/zk.png" />
+    </a>-->
+    <div id="guide">
+        <img src="./download_files/guide01.png">
+        <img src="./download_files/guide02.png">
+        <img src="./download_files/guide03.png">
+        <img src="./download_files/guide04.png">
+        <a href="itms-services://?action=download-manifest&amp;url=https://www.yindengfintech.com/ios/manifest.plist" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;download&#39;, &#39;click&#39;, &#39;ios&#39;])">
+            <img src="./download_files/guidebut.png">
+        </a>
+    </div>
+</div>
+<div class="elasticLayer" style="display: none;">
+    <img src="./download_files/jt2.png">
+</div>
+
+
+
+
+
+</body></html>
